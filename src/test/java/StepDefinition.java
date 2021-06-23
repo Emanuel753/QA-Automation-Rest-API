@@ -1,9 +1,6 @@
-import Models.Usuarios.POST.UsuarioRequest;
-import Models.Usuarios.POST.UsuarioResponse;
-import Models.Usuarios.Usuarios;
+
 import Questions.CreacionUsuarioQuestion;
 import Questions.TitulosQuestion;
-import Models.libros.Libros;
 import Questions.UsuariosQuestion;
 import Task.CrearUsuarioTask;
 import Task.ObtenerTitulos;
@@ -15,7 +12,6 @@ import net.serenitybdd.rest.SerenityRest;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.rest.abilities.CallAnApi;
-import net.serenitybdd.screenplay.rest.interactions.Post;
 import org.hamcrest.core.IsEqual;
 
 import static net.serenitybdd.screenplay.rest.questions.ResponseConsequence.seeThatResponse;
