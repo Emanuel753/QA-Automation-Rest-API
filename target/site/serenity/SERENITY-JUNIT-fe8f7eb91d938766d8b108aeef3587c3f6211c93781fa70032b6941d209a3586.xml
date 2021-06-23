@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Iniciar sesion o crear" skipped="0" tests="1" time="5.77" timestamp="2021-06-23 05:09:42"><testcase name="Crear usuario"><failure message="&#10;Expected: &lt;1051&gt;&#10;     but: was &lt;101&gt;" type="java.lang.AssertionError">
-Expected: &lt;1051&gt;
-     but: was &lt;101&gt;</failure><system-err>
-Expected: &lt;1051&gt;
-     but: was &lt;101&gt;&#13;
-StepDefinition.valido_la_creacion_exitosa(StepDefinition.java:73)&#13;
-✽.Valido la creacion exitosa(file:src/test/resources/features/api.feature:31)&#13;
-</system-err></testcase></testsuite>
