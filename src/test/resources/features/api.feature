@@ -2,8 +2,6 @@
 Característica: Iniciar sesion o crear
  Antecedentes:
  Dado el servicio rest
-
-
   @APIS
   Esquema del escenario: Iniciar sesion
     Cuando se realiza una peticion GET <id>
